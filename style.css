@@ -3,15 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: Montserrat;
-    src: url("./Montserrat-VariableFont_wght.woff2");
-}
-@font-face {
-    font-family: OpenSans;
-    src: url("./OpenSans-VariableFont_wdth,wght.woff2");
-}
-
 :root {
     --dark: #1a2434;
     --white-1: #f6f8fa; 
@@ -21,10 +12,9 @@
     --purple: #ebe6fe; 
     --green: #d7fce3; 
     --black: #0e0e0e;
-    --prime: "Montserrat", sans-serif;
-    --body: "OpenSans", sans-serif;
+    --prime: 'Poppins', sans-serif;
+    --body: 'Open Sans', sans-serif;
 }
-
 
 * {
     margin: 0;
@@ -134,7 +124,7 @@ section ul li {
     font-size: 17px;
     width: 75%;
     font-family: var(--body);
-    text-align: left;
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
 }
 
@@ -161,6 +151,10 @@ section ul li {
 
 .Projects {
     background-color: var(--purple);
+}
+
+.Projects > ul {
+    font-style: italic;
 }
 
 .Contact {
